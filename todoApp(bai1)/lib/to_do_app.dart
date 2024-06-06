@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ToDoApp extends StatefulWidget {
-  const ToDoApp({Key? key}) : super(key: key);
+class ToDoScreent extends StatefulWidget {
+  const ToDoScreent({Key? key}) : super(key: key);
 
   @override
-  State<ToDoApp> createState() => _ToDoAppState();
+  State<ToDoScreent> createState() => _ToDoScreentState();
 }
 
-class _ToDoAppState extends State<ToDoApp> {
+class _ToDoScreentState extends State<ToDoScreent> {
 
   List<String> todoList = ['Task 1', 'Task 2', 'Task 3'];
   void showAddDialog(){
